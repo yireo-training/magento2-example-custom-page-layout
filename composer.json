@@ -1,0 +1,28 @@
+{
+    "name": "yireo-training/magento2-example-custom-page-layout",
+    "license": "OSL-3.0",
+    "type": "magento2-module",
+    "version": "0.0.1",
+    "homepage": "",
+    "description": "",
+    "keywords":[ "composer-installer", "magento"],
+    "authors": [
+        {
+            "name": "Jisse Reitsma (Yireo)",
+            "email": "jisse@yireo.com"
+        }
+    ],
+    "require": {
+        "magento/framework": "^100.1.0|^101.0.0",
+        "php": ">=7.0.0"
+    },
+    "require-dev":{
+        "phpunit/phpunit":"*",
+        "composer/composer":"*@dev"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}
